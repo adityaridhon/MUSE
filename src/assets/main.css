@@ -1,0 +1,18 @@
+@import url("https://fonts.googleapis.com/css2?family=Saira:ital,wght@0,100..900;1,100..900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap");
+@import "tailwindcss";
+
+@theme {
+  --font-primary: "Work Sans", sans-serif;
+  --font-title: "Saira", cursive;
+  --color-primary: #9929ea;
+  --color-black: #000000;
+  --color-gray: #b5b5b5;
+}
+
+:root {
+  font-family: "Work Sans", sans-serif;
+}
+
+body {
+  scroll-behavior: smooth;
+}
