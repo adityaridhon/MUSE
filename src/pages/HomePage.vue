@@ -1,5 +1,4 @@
 <script setup>
-// Import komponen
 import HeroSection from "@/components/section/HeroSection.vue";
 import Marquee from "@/components/ui/Marquee.vue";
 import AboutSection from "@/components/section/AboutSection.vue";

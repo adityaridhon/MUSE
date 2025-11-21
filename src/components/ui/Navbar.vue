@@ -10,7 +10,7 @@ const menu = [
   { name: "Kontak", link: "/kontak" },
 ];
 
-// State mobile menu
+// cek mbile menu
 const isMobileMenuOpen = ref(false);
 
 // Function toggle mobile menu

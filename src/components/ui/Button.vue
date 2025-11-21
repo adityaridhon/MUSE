@@ -1,7 +1,7 @@
 <script setup>
 import { computed } from "vue";
 
-// props dasar
+// props utama
 const props = defineProps({
   variant: {
     type: String,
