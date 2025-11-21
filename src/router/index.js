@@ -1,10 +1,10 @@
 import { createRouter, createWebHistory } from "vue-router";
-import HomePage from "@/components/pages/HomePage.vue";
-import AboutPage from "@/components/pages/AboutPage.vue";
-import GalleryPage from "@/components/pages/GalleryPage.vue";
-import ServicePage from "@/components/pages/ServicePage.vue";
-import ContactPage from "@/components/pages/ContactPage.vue";
-import ServiceDetail from "@/components/pages/ServiceDetail.vue";
+import HomePage from "@/pages/HomePage.vue";
+import AboutPage from "@/pages/AboutPage.vue";
+import GalleryPage from "@/pages/GalleryPage.vue";
+import ServicePage from "@/pages/ServicePage.vue";
+import ContactPage from "@/pages/ContactPage.vue";
+import ServiceDetail from "@/pages/ServiceDetail.vue";
 
 const routes = [
   { path: "/", name: "home", component: HomePage },
@@ -18,7 +18,6 @@ const routes = [
 const router = createRouter({
   history: createWebHistory(),
   routes,
-  // Scroll biar keatas
   scrollBehavior() {
     return {
       top: 0,
