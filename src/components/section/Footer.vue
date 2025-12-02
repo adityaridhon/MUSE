@@ -11,7 +11,7 @@ const menu = [
 <template>
   <footer class="border-t w-full border-t-primary py-12 shadow-2xl">
     <div
-      class="container mx-auto px-4 flex flex-col items-center gap-8 md:flex-row md:justify-between md:items-center"
+      class="container mx-auto px-4 flex flex-col items-center gap-8 md:flex-row md:justify-between md:items-center max-w-6xl"
     >
       <div class="logo flex flex-col md:flex-row items-center gap-4">
         <img src="/logo.svg" alt="Logo-footer" width="80" />

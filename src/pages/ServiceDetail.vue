@@ -3,6 +3,8 @@ import { useRoute, useRouter } from "vue-router";
 import { services } from "@/data/services.js";
 import Button from "@/components/ui/Button.vue";
 import { ArrowLeft, Check, ShoppingCart } from "lucide-vue-next";
+import Popupservice from "@/components/ui/Popupservice.vue";
+import { ref } from "vue";
 
 const route = useRoute();
 const router = useRouter();
@@ -13,6 +15,15 @@ const service = services.find((s) => s.slug === slug);
 const goBack = () => {
   router.go(-1);
 };
+
+const showPopup = ref(false);
+
+const submitForm = (e) => {
+  e.preventDefault(); 
+
+  showPopup.value = true;
+};
+
 </script>
 
 <template>
@@ -53,7 +64,7 @@ const goBack = () => {
         <div
           class="btn flex justify-between items-center mt-8 pt-6 border-t border-gray-200 w-full"
         >
-          <Button class="flex items-center gap-2">
+          <Button class="flex items-center gap-2" @click="submitForm">
             Pesan Sekarang <ShoppingCart />
           </Button>
           <div class="harga text-right">
@@ -71,4 +82,10 @@ const goBack = () => {
   <div v-else>
     <p>Layanan tidak ditemukan.</p>
   </div>
+  <Popupservice
+    :show="showPopup"
+    title="Berhasil order!"
+    message="Terima kasih atas pesanan anda, semoga bahagia dengan servis kami!"
+    @close="showPopup = false"
+  />
 </template>

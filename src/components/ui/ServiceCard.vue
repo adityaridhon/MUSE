@@ -29,7 +29,7 @@ const goToDetail = () => {
 
 <template>
   <div
-    class="max-w-xl bg-white border border-gray-200 rounded-lg shadow-sm dark:bg-gray-800 dark:border-gray-700 cursor-pointer"
+    class="max-w-xl bg-white border border-gray-200 rounded-lg shadow-sm cursor-pointer"
     @click="goToDetail"
   >
     <img class="rounded-t-lg w-full object-cover" :src="image" :alt="title" />

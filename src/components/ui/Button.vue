@@ -28,7 +28,7 @@ const variants = {
   outline:
     "border border-primary text-primary bg-transparent hover:bg-primary/100 hover:text-white focus-visible:ring-primary/50",
   ghost:
-    "bg-transparent text-primary hover:-translate-x-0.5 hover:-translate-y-0.5 hover:shadow-[8px_8px_0_#00000040]",
+    "bg-transparent text-primary/80 hover:bg-primary hover:text-white",
   destructive: "bg-red-600 text-white hover:bg-red-700 ",
 };
 

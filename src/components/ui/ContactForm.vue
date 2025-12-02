@@ -1,11 +1,23 @@
 <script setup>
 import Button from "@/components/ui/Button.vue";
+import Popup from "@/components/ui/Popup.vue";
+import { ref } from "vue";
 import { SendHorizontal } from "lucide-vue-next";
+
+
+const showPopup = ref(false);
+
+const submitForm = (e) => {
+  e.preventDefault(); 
+
+  showPopup.value = true;
+};
+
 </script>
 
 <template>
   <div class="bg-white p-8 rounded-xl shadow">
-    <form class="mx-auto">
+    <form class="mx-auto" @submit="submitForm">
       <!-- IMput nama -->
       <div class="mb-5">
         <label for="nama" class="block mb-2 text-base font-medium text-black">
@@ -53,4 +65,10 @@ import { SendHorizontal } from "lucide-vue-next";
       </div>
     </form>
   </div>
+  <Popup
+    :show="showPopup"
+    title="Pesan Terkirim!"
+    message="Terima kasih atas pesan anda, kami akan segera menanggapi!"
+    @close="showPopup = false"
+  />
 </template>

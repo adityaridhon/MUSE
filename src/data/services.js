@@ -26,7 +26,6 @@ export const services = [
     description: "Fasilitas rekaman profesional dengan engineer berpengalaman.",
     features: ["Mic condenser", "Soundproof", "Mixing & mastering"],
   },
-  // tambah 3 lagi
   {
     slug: "mixing-mastering",
     image: "/About.jpg",

@@ -17,7 +17,7 @@ const props = defineProps({
 
 <template>
   <header
-    class="relative w-full bg-cover bg-center bg-no-repeat flex items-center justify-center h-115 pt-20"
+    class="relative w-full bg-cover bg-center bg-no-repeat flex items-center justify-center h-80 pt-20"
     :style="{ backgroundImage: `url(${backgroundImage})` }"
   >
     <!-- Overlay -->
