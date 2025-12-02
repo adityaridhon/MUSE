@@ -10,7 +10,7 @@ const menu = [
 
 <template>
   <nav>
-    <ul class="menu flex items-center gap-8 font-medium text-lg">
+    <ul class="menu flex items-center gap-2 font-medium text-lg">
       <RouterLink
         v-for="(item, index) in menu"
         :key="index"
