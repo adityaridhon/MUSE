@@ -17,7 +17,7 @@ import Button from "@/components/ui/Button.vue";
           Menciptakan suasana hangat dalam
           <span class="text-primary">bermusik</span>
         </h1>
-        <p>
+        <p class="text-base">
           Kami memulai
           <span class="text-primary font-bold underline">MUSE</span> dengan
           tujuan menciptakan suasana bermusik yang hangat, ceria, kondusif dan

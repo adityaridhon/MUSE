@@ -1,6 +1,9 @@
 <template>
-    <div >
-        <h1 class="font-title font-bold text-4xl text-center mb-10 text-primary pt-14">Klien Kami</h1>
+    <div class="text-center mt-10">
+       <h3 class="text-gray text-sm md:text-lg">Klien</h3>
+    <h1 class="font-title text-primary text-2xl md:text-4xl font-bold mb-4">
+      Partner Kami
+    </h1>
         <Vue3Marquee :pause-on-hover="true">
             <div class="card" v-for="LogoLuar in LogoLuar" :key="LogoLuar">
             <img :src="LogoLuar" width="120" class="mx-10" />
