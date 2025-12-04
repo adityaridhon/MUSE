@@ -23,15 +23,15 @@ const menu = [
           class="menu flex flex-col gap-2 font-medium text-md text-center mt-6 md:mt-0 md:text-right"
         >
           <h2 class="font-semibold font-title">NAVIGASI</h2>
-          <RouterLink
-            v-for="(item, index) in menu"
-            :key="index"
-            :to="item.link"
-            class="text-gray hover:text-primary transition-colors duration-300"
-            active-class="text-primary "
-          >
-            {{ item.name }}
-          </RouterLink>
+          <li v-for="(item, index) in menu" :key="index">
+            <RouterLink
+              :to="item.link"
+              class="text-gray hover:text-primary transition-colors duration-300"
+              active-class="text-primary "
+            >
+              {{ item.name }}
+            </RouterLink>
+          </li>
         </ul>
       </nav>
     </div>

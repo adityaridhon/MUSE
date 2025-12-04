@@ -42,6 +42,7 @@ const closeMobileMenu = () => {
 
       <!-- Mobile Hamburger Button -->
       <button
+        id="navbar"
         @click="toggleMobileMenu"
         class="lg:hidden relative flex flex-col items-center justify-center w-10 h-10 focus:outline-none focus:ring-2 focus:ring-primary focus:ring-opacity-50 rounded-lg"
         :class="{ active: isMobileMenuOpen }"

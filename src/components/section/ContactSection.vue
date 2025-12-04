@@ -15,6 +15,7 @@ import ContactForm from "@/components/ui/ContactForm.vue";
           Lebih dekat dengan kami, tanyakan rasa penasaranmu sekarang!
         </p>
         <iframe
+          title="maps"
           src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2481.966165400165!2d-0.18042012415403216!3d51.53218040889368!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48761aa33eb87a9b%3A0xe406bb492eaf555b!2sAbbey%20Road%20Studios!5e0!3m2!1sid!2sid!4v1763042517254!5m2!1sid!2sid"
           class="rounded-lg mb-4 md:mb-0 w-full h-64 md:h-90 lg:h-86"
           allowfullscreen=""

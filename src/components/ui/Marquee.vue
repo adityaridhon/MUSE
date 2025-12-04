@@ -6,12 +6,12 @@
     </h1>
         <Vue3Marquee :pause-on-hover="true">
             <div class="card" v-for="LogoLuar in LogoLuar" :key="LogoLuar">
-            <img :src="LogoLuar" width="120" class="mx-10" />
+            <img :src="LogoLuar" width="120" class="mx-10" alt="partner-luar"/>
             </div>
         </Vue3Marquee  />
         <Vue3Marquee :pause-on-hover="true" :direction="'reverse'">
             <div class="card" v-for="LogoDalam in LogoDalam" :key="LogoDalam">
-            <img :src="LogoDalam" width="120" class="mx-10 mt-10" />
+            <img :src="LogoDalam" width="120" class="mx-10 mt-10" alt="partner-dalam"/>
             </div>
         </Vue3Marquee>
     </div>
