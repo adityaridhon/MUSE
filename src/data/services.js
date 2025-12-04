@@ -1,7 +1,12 @@
 export const services = [
   {
     slug: "studio-musik",
-    image: "/About.jpg",
+    image: "/layanan/studio-musik/studio-musik-1.webp",
+    galeri: [
+      "/layanan/studio-musik/studio-musik.webp",
+      "/layanan/studio-musik/studio-musik-1.webp",
+      "/layanan/studio-musik/studio-musik-2.webp",
+    ],
     price: "80.000",
     unit: "jam",
     title: "Studio Musik",
@@ -10,7 +15,11 @@ export const services = [
   },
   {
     slug: "sound-system",
-    image: "/About.jpg",
+    image: "/layanan/sound-system/sound-system.webp",
+    galeri: [
+      "/layanan/sound-system/sound-system.webp",
+      "/layanan/sound-system/sound-system-2.webp",
+    ],
     price: "2.000.000",
     unit: "event",
     title: "Sound System",
@@ -19,7 +28,12 @@ export const services = [
   },
   {
     slug: "rekaman-musik",
-    image: "/About.jpg",
+    image: "/layanan/rekaman/rekaman.webp",
+    galeri: [
+      "/layanan/rekaman/rekaman.webp",
+      "/layanan/rekaman/rekaman-2.webp",
+      "/layanan/rekaman/rekaman-3.webp",
+    ],
     price: "500.000",
     unit: "lagu",
     title: "Rekaman Musik",
@@ -28,7 +42,12 @@ export const services = [
   },
   {
     slug: "mixing-mastering",
-    image: "/About.jpg",
+    image: "/layanan/mixing/mixing.webp",
+    galeri: [
+      "/layanan/mixing/mixing.webp",
+      "/layanan/mixing/mixing-2.webp",
+      "/layanan/mixing/mixing-3.webp",
+    ],
     price: "350.000",
     unit: "lagu",
     title: "Mixing & Mastering",
@@ -36,20 +55,22 @@ export const services = [
     features: ["Engineer berpengalaman", "Reference tracks"],
   },
   {
-    slug: "studio-a",
-    image: "/About.jpg",
+    slug: "sewa-drum",
+    image: "/layanan/sewa/drum.webp",
+    galeri: ["/layanan/sewa/drum.webp", "/layanan/sewa/drum-2.webp"],
     price: "100.000",
     unit: "jam",
-    title: "Studio A",
+    title: "Sewa Drum",
     description: "Studio luas cocok untuk band dan grup musik.",
     features: ["AC", "Soundproof"],
   },
   {
-    slug: "studio-b",
-    image: "/About.jpg",
+    slug: "sewa-gitar",
+    image: "/layanan/sewa/gitar.webp",
+    galeri: ["/layanan/sewa/gitar.webp", "/layanan/sewa/gitar-2.webp"],
     price: "120.000",
     unit: "jam",
-    title: "Studio B",
+    title: "Sewa Gitar",
     description: "Studio ruangan kecil, cocok untuk latihan personal.",
     features: ["Mic", "Drum mini"],
   },

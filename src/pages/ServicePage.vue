@@ -9,7 +9,7 @@ import { services } from "@/data/services";
     <HeaderSection
       title="Layanan Kami"
       description="Layanan yang kami sediakan"
-      background-image="/About.jpg"
+      background-image="/header/header-layanan.webp"
     />
     <div class="max-w-6xl mx-auto px-6 py-16">
       <h3 class="text-gray text-sm md:text-lg text-center">Layanan</h3>

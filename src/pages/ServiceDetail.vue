@@ -4,6 +4,7 @@ import { services } from "@/data/services.js";
 import Button from "@/components/ui/Button.vue";
 import { ArrowLeft, Check, ShoppingCart } from "lucide-vue-next";
 import Popupservice from "@/components/ui/Popupservice.vue";
+import Carousel from "@/components/ui/Carousel.vue";
 import { ref } from "vue";
 
 const route = useRoute();
@@ -19,11 +20,10 @@ const goBack = () => {
 const showPopup = ref(false);
 
 const submitForm = (e) => {
-  e.preventDefault(); 
+  e.preventDefault();
 
   showPopup.value = true;
 };
-
 </script>
 
 <template>
@@ -40,8 +40,8 @@ const submitForm = (e) => {
       </Button>
       <h1 class="font-semibold text-xl">Detail {{ service.title }}</h1>
     </div>
-    <div class="content flex md:flex-row flex-col gap-10 md:mx-10">
-      <div class="gambar w-90 md:w-full lg:w-200 mx-auto">
+    <div class="content flex lg:flex-row flex-col gap-10 md:mx-10">
+      <div class="gambar w-80 md:w-full lg:w-200 mx-auto">
         <img :src="service.image" :alt="service.title" class="rounded-lg" />
       </div>
       <div class="teks flex flex-col w-full">
@@ -70,7 +70,10 @@ const submitForm = (e) => {
         <div
           class="btn flex md:flex-row flex-col-reverse justify-between items-center mt-8 pt-6 border-t border-gray-200 w-full"
         >
-          <Button class="flex items-center gap-2 w-full md:w-50" @click="submitForm">
+          <Button
+            class="flex items-center gap-2 w-full md:w-50"
+            @click="submitForm"
+          >
             Pesan Sekarang <ShoppingCart />
           </Button>
           <div class="harga text-center md:text-right mb-4 md:mb-0">
@@ -83,7 +86,10 @@ const submitForm = (e) => {
         </div>
       </div>
     </div>
-    <div class="galeri"></div>
+    <div class="galeri flex flex-col mt-20 md:mx-10 justify-center">
+      <h2 class="font-semibold text-2xl text-center mb-7">Galeri</h2>
+      <Carousel :images="service.galeri" />
+    </div>
   </section>
   <div v-else>
     <p>Layanan tidak ditemukan.</p>

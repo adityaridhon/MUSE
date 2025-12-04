@@ -2,43 +2,43 @@
 const galleryItems = [
   {
     id: 1,
-    src: "/About.jpg",
+    src: "/galeri/galeri-1.webp",
     alt: "Gallery Image 1",
     class: "col-span-1 md:col-span-1 md:row-span-2",
   },
   {
     id: 2,
-    src: "/About.jpg",
+    src: "/galeri/galeri-2.webp",
     alt: "Gallery Image 2",
     class: "col-span-1 md:col-span-3 md:row-span-2",
   },
   {
     id: 3,
-    src: "/About.jpg",
+    src: "/galeri/galeri-3.webp",
     alt: "Gallery Image 3",
     class: "col-span-1 md:col-span-2 md:row-span-2",
   },
   {
     id: 4,
-    src: "/About.jpg",
+    src: "/galeri/galeri-4.webp",
     alt: "Gallery Image 4",
     class: "col-span-1 md:col-span-2 md:row-span-1",
   },
   {
     id: 5,
-    src: "/About.jpg",
+    src: "/galeri/galeri-5.webp",
     alt: "Gallery Image 5",
     class: "col-span-1 md:col-span-3 md:row-span-2",
   },
   {
     id: 6,
-    src: "/About.jpg",
+    src: "/galeri/galeri-6.webp",
     alt: "Gallery Image 6",
     class: "col-span-1 md:col-span-1 md:row-span-2",
   },
   {
     id: 7,
-    src: "/About.jpg",
+    src: "/galeri/galeri-7.webp",
     alt: "Gallery Image 7",
     class: "col-span-2 md:row-span-1",
   },
@@ -65,9 +65,7 @@ const galleryItems = [
         />
         <div
           class="absolute inset-0 bg-black/30 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center text-white text-sm md:text-lg font-semibold"
-        >
-          {{ item.alt }}
-        </div>
+        ></div>
       </div>
     </div>
   </div>

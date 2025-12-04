@@ -8,7 +8,7 @@ import ContactSection from "@/components/section/ContactSection.vue";
     <HeaderSection
       title="Kontak"
       description="Hubungi kami untuk pertanyaan lebih lanjut"
-      background-image="/About.jpg"
+      background-image="/header/header-kontak.webp"
     />
     <ContactSection />
   </section>

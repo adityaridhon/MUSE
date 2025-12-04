@@ -2,21 +2,21 @@
 const aboutData = [
   {
     id: 1,
-    image: "/About.jpg",
+    image: "/tentang/1.webp",
     heading: "Visi Kami",
     description:
       "Menjadi studio musik terdepan yang menghadirkan kualitas audio premium dan memberikan pengalaman rekaman yang tak terlupakan bagi setiap musisi.",
   },
   {
     id: 2,
-    image: "/About.jpg",
+    image: "/tentang/2.webp",
     heading: "Misi Kami",
     description:
       "Menyediakan layanan rekaman profesional dengan teknologi terkini, didukung oleh tim yang berpengalaman untuk membantu mewujudkan karya musik terbaik.",
   },
   {
     id: 3,
-    image: "/About.jpg",
+    image: "/tentang/3.webp",
     heading: "Nilai Kami",
     description:
       "Komitmen terhadap kualitas, kreativitas, dan kepuasan klien adalah fondasi utama dalam setiap layanan yang kami berikan kepada para musisi.",

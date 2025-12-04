@@ -8,7 +8,7 @@ import AboutCard from "@/components/ui/AboutCard.vue";
   <section>
     <HeaderSection
       title="Tentang Kami"
-      background-image="/About.jpg"
+      background-image="/header/header-about.webp"
       description="Lebih dekat dengan kami untuk meningkatkan kepercayaan anda!"
     />
     <div class="py-12 mx-10 md:mx-24">

@@ -8,7 +8,7 @@ import GallerySection from "@/components/section/GallerySection.vue";
     <HeaderSection
       title="Galeri"
       description="Momen yang terabadikan bersama kami"
-      background-image="/About.jpg"
+      background-image="/header/header-galeri.webp"
     />
     <div>
       <GallerySection />

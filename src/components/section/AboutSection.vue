@@ -5,14 +5,18 @@ import Button from "@/components/ui/Button.vue";
 
 <template>
   <div class="wrapper mx-auto pt-24 max-w-6xl px-8" id="about">
-    <div class="flex flex-col md:flex-row items-center md:items-start">
+    <div class="flex flex-col lg:flex-row items-center lg:items-start">
       <div class="img mb-12 flex justify-center">
-        <img src="/About.jpg" alt="about" class="rounded-2xl w-96 md:w-280" />
+        <img
+          src="/header/header-about.webp"
+          alt="about"
+          class="rounded-2xl w-96 md:w-300 lg:w-280"
+        />
       </div>
       <div
-        class="caption flex-col items-center text-center md:items-start md:text-right md:ml-24"
+        class="caption flex-col items-center text-center lg:items-start lg:text-right lg:ml-24"
       >
-        <h3 class="text-gray text-sm md:text-lg">Tentang Kami</h3>
+        <h3 class="text-gray text-sm md:text-lg lg:text-xl">Tentang Kami</h3>
         <h1 class="font-title text-2xl md:text-4xl font-bold mb-4">
           Menciptakan suasana hangat dalam
           <span class="text-primary">bermusik</span>
@@ -30,5 +34,5 @@ import Button from "@/components/ui/Button.vue";
       </div>
     </div>
   </div>
-  <Testimonial variant="primary" />
+  <Testimonial variant="primary" class="mt-7" />
 </template>
