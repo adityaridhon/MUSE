@@ -36,14 +36,14 @@ const closeMobileMenu = () => {
 
       <!-- Desktop Menu  -->
 
-      <div class="hidden md:block">
+      <div class="hidden lg:block">
         <NavMenu />
       </div>
 
       <!-- Mobile Hamburger Button -->
       <button
         @click="toggleMobileMenu"
-        class="md:hidden relative flex flex-col items-center justify-center w-10 h-10 focus:outline-none focus:ring-2 focus:ring-primary focus:ring-opacity-50 rounded-lg"
+        class="lg:hidden relative flex flex-col items-center justify-center w-10 h-10 focus:outline-none focus:ring-2 focus:ring-primary focus:ring-opacity-50 rounded-lg"
         :class="{ active: isMobileMenuOpen }"
       >
         <span
@@ -69,7 +69,7 @@ const closeMobileMenu = () => {
 
     <!-- Mobile Menu Dropdown -->
     <div
-      class="md:hidden bg-white border-t border-gray-200 transition-all duration-300 ease-in-out"
+      class="lg:hidden bg-white border-t border-gray-200 transition-all duration-300 ease-in-out"
       :class="
         isMobileMenuOpen
           ? 'max-h-screen opacity-100 visible'

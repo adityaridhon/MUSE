@@ -1,5 +1,6 @@
 <script setup>
 import { useRouter } from "vue-router";
+import { Check } from "lucide-vue-next";
 
 const router = useRouter();
 
@@ -52,8 +53,16 @@ const goToDetail = () => {
 
       <div class="border border-gray"></div>
 
-      <ul class="my-4 list-disc list-inside text-black">
-        <li v-for="(feature, index) in features" :key="index">
+      <ul class="mt-6 space-y-3">
+        <li
+          v-for="(feature, index) in features"
+          :key="index"
+          class="flex items-center gap-2"
+        >
+          <Check
+            size="18"
+            class="bg-primary rounded-full text-white p-0.5 font-semibold"
+          />
           {{ feature }}
         </li>
       </ul>

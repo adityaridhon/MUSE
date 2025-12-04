@@ -10,7 +10,7 @@ import Button from "@/components/ui/Button.vue";
         <img
           src="/header/header-about.webp"
           alt="about"
-          class="rounded-2xl w-96 md:w-300 lg:w-280"
+          class="rounded-2xl w-96 md:w-160 lg:w-280"
         />
       </div>
       <div
