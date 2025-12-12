@@ -5,6 +5,7 @@ import GalleryPage from "@/pages/GalleryPage.vue";
 import ServicePage from "@/pages/ServicePage.vue";
 import ContactPage from "@/pages/ContactPage.vue";
 import ServiceDetail from "@/pages/ServiceDetail.vue";
+import TentangDev from "@/pages/TentangDev.vue";
 
 const routes = [
   { path: "/", name: "home", component: HomePage },
@@ -13,6 +14,7 @@ const routes = [
   { path: "/layanan", name: "layanan", component: ServicePage },
   { path: "/layanan/:slug", name: "layanan-detail", component: ServiceDetail },
   { path: "/kontak", name: "kontak", component: ContactPage },
+  { path: "/tentang-dev", name: "tentang-dev", component: TentangDev },
 ];
 
 const router = createRouter({

@@ -5,6 +5,7 @@ const menu = [
   { name: "Galeri", link: "/galeri" },
   { name: "Layanan", link: "/layanan" },
   { name: "Kontak", link: "/kontak" },
+  { name: "Tentang Developer", link: "/tentang-dev" },
 ];
 </script>
 

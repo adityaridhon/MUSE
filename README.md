@@ -1,23 +1,6 @@
-# muse
+# Muse - Aditya Ridho 11231003
 
-This template should help get you started developing with Vue 3 in Vite.
-
-## Recommended IDE Setup
-
-[VS Code](https://code.visualstudio.com/) + [Vue (Official)](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
-
-## Recommended Browser Setup
-
-- Chromium-based browsers (Chrome, Edge, Brave, etc.):
-  - [Vue.js devtools](https://chromewebstore.google.com/detail/vuejs-devtools/nhdogjmejiglipccpnnnanhbledajbpd) 
-  - [Turn on Custom Object Formatter in Chrome DevTools](http://bit.ly/object-formatters)
-- Firefox:
-  - [Vue.js devtools](https://addons.mozilla.org/en-US/firefox/addon/vue-js-devtools/)
-  - [Turn on Custom Object Formatter in Firefox DevTools](https://fxdx.dev/firefox-devtools-custom-object-formatters/)
-
-## Customize configuration
-
-See [Vite Configuration Reference](https://vite.dev/config/).
+Booking layanan studio musik dengan cepat dant tenang
 
 ## Project Setup
 
@@ -25,7 +8,7 @@ See [Vite Configuration Reference](https://vite.dev/config/).
 npm install
 ```
 
-### Compile and Hot-Reload for Development
+### Compile
 
 ```sh
 npm run dev
@@ -36,3 +19,11 @@ npm run dev
 ```sh
 npm run build
 ```
+
+## File terlibat untuk COTS:
+
+- Menambah file foto di public/tentang-dev
+- Membuat file halaman TentangDev.vue di src/pages/TentangDev.vue yang berisi komponen ServiceCard menggunakan v-for yang berisi skills di halaman tentang-dev
+- Menambahkan routingan ke tentang-dev di components/ui/Navbar.vue dan components/ui/NavMenu.vue
+- Membuat routingan /tentang-dev di router/index.js
+- Halaman COTS diakses di halaman http://localhost:(port)/tentang-dev
