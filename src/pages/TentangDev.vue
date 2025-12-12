@@ -87,7 +87,7 @@ const skills = [
       Skill Saya
     </h1>
     <div
-      class="skil grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mx-20 mt-7"
+      class="skil grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 md:mx-20 mt-7"
     >
       <ServiceCard v-for="(service, i) in skills" :key="i" v-bind="service" />
     </div>
