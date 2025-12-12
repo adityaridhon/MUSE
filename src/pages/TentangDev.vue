@@ -54,7 +54,7 @@ const skills = [
     >
       <div class="nama">
         <h1
-          class="text-center md:text-left font-bold text-3xl text-primary mb-2"
+          class="text-center md:text-left font-bold text-2xl md:text-5xl text-primary mb-2"
         >
           Aditya Ridho Nugroho
         </h1>
@@ -87,7 +87,7 @@ const skills = [
       Skill Saya
     </h1>
     <div
-      class="skil grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mx-8 mt-7"
+      class="skil grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mx-20 mt-7"
     >
       <ServiceCard v-for="(service, i) in skills" :key="i" v-bind="service" />
     </div>
